@@ -11,7 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://weather-app.bhaweshagrawal.com.np", "192.168.101.2:3000", "https://weather-app-five-beige-86.vercel.app/"],  # Add your Vercel URL
+    allow_origins=["http://localhost:3000", "https://weather-app.bhaweshagrawal.com.np", "192.168.101.2:3000", "https://weather-app-five-beige-86.vercel.app"],  # Add your Vercel URL
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],  # Allow POST and OPTIONS for /predict
     allow_headers=["Content-Type"],
