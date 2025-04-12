@@ -30,7 +30,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
 
   const apiKey = process.env.NEXT_PUBLIC_OPENWEATHERMAP_API_KEY;
-  const backendUrl = 'https://weather-app-5krk.onrender.com/predict';
+  const backendUrl = 'https://weather-app-tr3b.onrender.com/predict';
 
   // Initialize particles
   const particlesInit = useCallback(async (engine: Engine) => {
